@@ -1,5 +1,10 @@
+/* ******** */
+/* Position */
+/* ******** */
+
 body {
   margin: 0;
+  background-color: #ace6bb;
 }
 
 .wrapper {
@@ -8,7 +13,42 @@ body {
   align-items: center;
 }
 
-svg {
-
+.icon {
   width: 400px;
+}
+
+/* ****** */
+/* Design */
+/* ****** */
+
+.icon-text {
+  fill: #597d62;
+  transition-duration: 0.6s;
+}
+
+.icon-eyes {
+  fill: #ee82ee;
+  transition-duration: 0.6s;
+}
+
+.icon-head {
+  fill: #597d62;
+  transition-duration: 0.6s;
+}
+
+/* ***** */
+/* Hover */
+/* ***** */
+
+.icon:hover > .icon-eyes {
+  fill: #f5454a;
+  filter: blur(0.5px);
+} 
+
+.icon:hover > .icon-text {
+  fill: #f5454a;
+} 
+
+.icon:hover > .icon-head {
+  filter: drop-shadow(1px 4px 4px #2e2c2c);
 }
