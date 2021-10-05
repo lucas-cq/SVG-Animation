@@ -1,0 +1,23 @@
+svg {
+  width: 400px;
+}
+
+.star {
+  fill: mediumaquamarine;
+}
+
+.text {
+  fill: blueviolet;
+}
+
+.banner {
+  fill: #4287f5;
+}
+
+.lines {
+  fill: goldenrod;
+}
+
+path:hover {
+  fill: black;
+}
