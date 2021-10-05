@@ -1,7 +1,7 @@
 # CPNT201-a3 - Lucas Cummings
 
 ## Repo and Pages
-* [Repository]()
+* [Repository](https://github.com/lucas-cq/cpnt201-asgn3)
 * [Pages]()
 
 ## Code Review
